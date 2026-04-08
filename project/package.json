@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1b4a9cc08ca8f62bd5926e80d6f4f96300cc4d6cf835b99e97be9ec3a33c6111
-size 904
+{
+  "name": "cennet-dunya",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.mts,.mtsx --fix --ignore-pattern node_modules"
+  },
+  "dependencies": {
+    "lucide-react": "^1.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.55.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
